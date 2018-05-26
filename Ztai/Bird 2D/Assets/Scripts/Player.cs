@@ -8,7 +8,7 @@ public class Player : MonoBehaviour {
     public float bounceForce;
 	public GameObject bubble;
     private Rigidbody2D myBody;
-  
+    int score;
 
     void Awake()
     {
@@ -49,4 +49,23 @@ public class Player : MonoBehaviour {
             }
         }
     }
+    void OnTriggerEnter2D(Collider2D target)
+    {
+        if (target.tag == "GameScore")
+        {
+           
+            score++;
+            if (GamePlayController.instance != null)
+            {
+                GamePlayController.instance._SetScore(score);
+            }
+          
+        }
+      else { 
+            Destroy(gameObject);
+        }
+    }
+  
+
+
 }
