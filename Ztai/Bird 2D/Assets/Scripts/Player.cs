@@ -61,11 +61,14 @@ public class Player : MonoBehaviour {
             }
           
         }
-      else { 
+      else {
+            GamePlayController.instance.PlayDied(score);    
             Destroy(gameObject);
         }
     }
-  
+    
+
+
 
 
 }

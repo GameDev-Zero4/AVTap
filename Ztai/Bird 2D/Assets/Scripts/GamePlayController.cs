@@ -7,7 +7,12 @@ public class GamePlayController : MonoBehaviour {
 
     public static GamePlayController instance;
     [SerializeField]
-    private Text scoreText;
+    private Text scoreText, endScoreText, bestScoreText;
+    [SerializeField]
+    private GameObject overpanel;
+    [SerializeField]
+    private static int bestscore;   
+
     void Awake()
     {
         
@@ -26,5 +31,23 @@ public class GamePlayController : MonoBehaviour {
     {
         scoreText.text = "" + score;
     }
+    public void PlayDied(int score)
+    {
+        Time.timeScale = 0;
+        overpanel.SetActive(true);
+        
+         endScoreText.text = "" + score;
+         if (score > bestscore)
+        {
+            bestscore = score;
+        }
+        bestScoreText.text = "" + bestscore;
 
+    }
+    public void RestartGameButton()
+    {
+        Application.LoadLevel("Play_Copy");
+        Time.timeScale = 1;
+        //Application.LoadLevel (Application.loadedLevel);
+    }
 }
