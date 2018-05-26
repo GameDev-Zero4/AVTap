@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Rotator60 : MonoBehaviour {
-		public float speedRotate;
-    private float angle;
+	   public float speedRotate;
+       private float angle;
 	// Use this for initialization
 	void Start () {
 		
