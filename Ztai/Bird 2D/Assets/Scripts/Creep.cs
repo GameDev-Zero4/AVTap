@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using EZCameraShake;
 
 public class Creep : MonoBehaviour {
 
@@ -20,7 +20,7 @@ public class Creep : MonoBehaviour {
     {
         if (target.gameObject.tag == "Player")
         {
-			
+			CameraShaker.Instance.ShakeOnce (4f, 4f, 1f, 1f);
 
 			deadEffect.SetActive (true);
         }

@@ -6,6 +6,7 @@ TextureImporter:
     21300002: player_1
     21300004: player_2
     21300006: player_3
+    21300008: player_4
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -95,10 +96,10 @@ TextureImporter:
       name: player_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 253
+        x: 19
+        y: 32
         width: 124
-        height: 126
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -109,10 +110,10 @@ TextureImporter:
       name: player_1
       rect:
         serializedVersion: 2
-        x: 231
-        y: 340
-        width: 22
-        height: 23
+        x: 174
+        y: 28
+        width: 124
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,8 +124,8 @@ TextureImporter:
       name: player_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 82
+        x: 333
+        y: 31
         width: 124
         height: 126
       alignment: 0
@@ -137,10 +138,24 @@ TextureImporter:
       name: player_3
       rect:
         serializedVersion: 2
-        x: 222
-        y: 85
-        width: 124
-        height: 125
+        x: 512
+        y: 97
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_4
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 54
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
