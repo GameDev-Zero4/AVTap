@@ -1,13 +1,11 @@
 fileFormatVersion: 2
-guid: fcaed02984657ec4aa2befb854ca8f81
-timeCreated: 1527172537
+guid: a586fcfae6a5ddc4980c9f4eec0d0c48
+timeCreated: 1527308981
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Ground_0
-    21300002: Ground_1
-    21300004: Ground_2
-    21300006: Ground_3
+    21300000: hammer_0
+    21300002: hammer_1
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -36,7 +34,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: -1
-    aniso: 1
+    aniso: -1
     mipBias: -1
     wrapU: 1
     wrapV: 1
@@ -81,27 +79,17 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ground_0
+      name: hammer_0
       rect:
         serializedVersion: 2
-        x: 55
-        y: 226
-        width: 490
-        height: 126
+        x: 26
+        y: 8
+        width: 118
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -109,27 +97,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Ground_1
+      name: hammer_1
       rect:
         serializedVersion: 2
-        x: 6
-        y: 42
-        width: 382
-        height: 129
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Ground_2
-      rect:
-        serializedVersion: 2
-        x: 438
-        y: 43
-        width: 129
-        height: 129
+        x: 228
+        y: 9
+        width: 118
+        height: 282
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

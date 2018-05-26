@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: fcaed02984657ec4aa2befb854ca8f81
-timeCreated: 1527172537
+guid: 655740dca433f5d469e0b7bccda3a147
+timeCreated: 1527308980
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Ground_0
-    21300002: Ground_1
-    21300004: Ground_2
-    21300006: Ground_3
+    21300000: player_0
+    21300002: player_1
+    21300004: player_2
+    21300006: player_3
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -36,7 +36,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: -1
-    aniso: 1
+    aniso: -1
     mipBias: -1
     wrapU: 1
     wrapV: 1
@@ -81,26 +81,16 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ground_0
+      name: player_0
       rect:
         serializedVersion: 2
-        x: 55
-        y: 226
-        width: 490
+        x: 20
+        y: 253
+        width: 124
         height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -109,13 +99,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Ground_1
+      name: player_1
       rect:
         serializedVersion: 2
-        x: 6
-        y: 42
-        width: 382
-        height: 129
+        x: 231
+        y: 340
+        width: 22
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,13 +113,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Ground_2
+      name: player_2
       rect:
         serializedVersion: 2
-        x: 438
-        y: 43
-        width: 129
-        height: 129
+        x: 32
+        y: 82
+        width: 124
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 85
+        width: 124
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
