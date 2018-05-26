@@ -289,38 +289,42 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4619298725531840, guid: 966298e69f07c63408cfd351e3b62259, type: 2}
+    - target: {fileID: 4440775080263534, guid: f20b463d896f8494c8ed3f102b24ac3e, type: 2}
       propertyPath: m_LocalPosition.x
       value: 1.6900538
       objectReference: {fileID: 0}
-    - target: {fileID: 4619298725531840, guid: 966298e69f07c63408cfd351e3b62259, type: 2}
+    - target: {fileID: 4440775080263534, guid: f20b463d896f8494c8ed3f102b24ac3e, type: 2}
       propertyPath: m_LocalPosition.y
       value: 3.118715
       objectReference: {fileID: 0}
-    - target: {fileID: 4619298725531840, guid: 966298e69f07c63408cfd351e3b62259, type: 2}
+    - target: {fileID: 4440775080263534, guid: f20b463d896f8494c8ed3f102b24ac3e, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4619298725531840, guid: 966298e69f07c63408cfd351e3b62259, type: 2}
+    - target: {fileID: 4440775080263534, guid: f20b463d896f8494c8ed3f102b24ac3e, type: 2}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4619298725531840, guid: 966298e69f07c63408cfd351e3b62259, type: 2}
+    - target: {fileID: 4440775080263534, guid: f20b463d896f8494c8ed3f102b24ac3e, type: 2}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4619298725531840, guid: 966298e69f07c63408cfd351e3b62259, type: 2}
+    - target: {fileID: 4440775080263534, guid: f20b463d896f8494c8ed3f102b24ac3e, type: 2}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4619298725531840, guid: 966298e69f07c63408cfd351e3b62259, type: 2}
+    - target: {fileID: 4440775080263534, guid: f20b463d896f8494c8ed3f102b24ac3e, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4619298725531840, guid: 966298e69f07c63408cfd351e3b62259, type: 2}
+    - target: {fileID: 4440775080263534, guid: f20b463d896f8494c8ed3f102b24ac3e, type: 2}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1800012822866180, guid: f20b463d896f8494c8ed3f102b24ac3e, type: 2}
+      propertyPath: m_Name
+      value: windmill_wings
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 966298e69f07c63408cfd351e3b62259, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: f20b463d896f8494c8ed3f102b24ac3e, type: 2}
   m_IsPrefabParent: 0
