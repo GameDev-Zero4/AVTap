@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212296034165999324}
   - component: {fileID: 114954263018637134}
   m_Layer: 0
-  m_Name: Ruler_Rotate
+  m_Name: windmill_wings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
