@@ -1,24 +1,24 @@
 fileFormatVersion: 2
-guid: 87c61dca019cbde4a9e3c1ef82c0085d
-timeCreated: 1527308981
+guid: fded16bddecf24e4c8dc36569ef3dc4f
+timeCreated: 1527324726
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Circles_0
-    21300002: Circles_1
-    21300004: Circles_2
-    21300006: Circles_3
-    21300008: Circles_4
-    21300010: Circles_5
-    21300012: Circles_6
-    21300014: Circles_7
-    21300016: Circles_8
-    21300018: Circles_9
-    21300020: Circles_10
-    21300022: Circles_11
-    21300024: Circles_12
-    21300026: Circles_13
-    21300028: Circles_14
+    21300000: circle_0
+    21300002: circle_1
+    21300004: circle_2
+    21300006: circle_3
+    21300008: circle_4
+    21300010: circle_5
+    21300012: circle_6
+    21300014: circle_7
+    21300016: circle_8
+    21300018: circle_9
+    21300020: circle_10
+    21300022: circle_11
+    21300024: circle_12
+    21300026: circle_13
+    21300028: circle_14
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -60,9 +60,8 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -92,17 +91,27 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Circles_0
+      name: circle_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 302
-        width: 31
-        height: 32
+        x: 6
+        y: 308
+        width: 42
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -110,13 +119,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Circles_1
+      name: circle_1
       rect:
         serializedVersion: 2
-        x: 60
-        y: 302
-        width: 36
-        height: 35
+        x: 56
+        y: 305
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,13 +133,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Circles_2
+      name: circle_2
       rect:
         serializedVersion: 2
-        x: 118
-        y: 302
-        width: 44
-        height: 44
+        x: 126
+        y: 305
+        width: 55
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,39 +147,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Circles_3
+      name: circle_3
       rect:
         serializedVersion: 2
-        x: 181
-        y: 300
-        width: 51
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Circles_4
-      rect:
-        serializedVersion: 2
-        x: 244
-        y: 300
-        width: 53
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Circles_5
-      rect:
-        serializedVersion: 2
-        x: 316
-        y: 298
+        x: 209
+        y: 305
         width: 60
         height: 60
       alignment: 0
@@ -180,12 +161,12 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Circles_6
+      name: circle_4
       rect:
         serializedVersion: 2
-        x: 8
-        y: 168
-        width: 68
+        x: 300
+        y: 305
+        width: 70
         height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -194,13 +175,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Circles_7
+      name: circle_5
       rect:
         serializedVersion: 2
-        x: 96
-        y: 170
-        width: 74
-        height: 72
+        x: 400
+        y: 299
+        width: 84
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,13 +189,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Circles_8
+      name: circle_6
       rect:
         serializedVersion: 2
-        x: 308
-        y: 155
-        width: 69
-        height: 69
+        x: 498
+        y: 299
+        width: 91
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,13 +203,69 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Circles_9
+      name: circle_7
       rect:
         serializedVersion: 2
-        x: 16
-        y: 50
+        x: 165
+        y: 168
+        width: 104
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: circle_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 59
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: circle_9
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 66
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: circle_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 72
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: circle_11
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 81
         width: 60
-        height: 62
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,13 +273,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Circles_10
+      name: circle_12
       rect:
         serializedVersion: 2
-        x: 95
-        y: 54
-        width: 53
-        height: 53
+        x: 417
+        y: 86
+        width: 55
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,13 +287,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Circles_11
+      name: circle_13
       rect:
         serializedVersion: 2
-        x: 162
-        y: 57
-        width: 49
-        height: 49
+        x: 494
+        y: 92
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,41 +301,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Circles_12
+      name: circle_14
       rect:
         serializedVersion: 2
-        x: 230
-        y: 60
-        width: 44
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Circles_13
-      rect:
-        serializedVersion: 2
-        x: 297
-        y: 68
-        width: 36
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Circles_14
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 71
-        width: 32
-        height: 31
+        x: 550
+        y: 94
+        width: 43
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
