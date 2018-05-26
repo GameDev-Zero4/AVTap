@@ -8,6 +8,6 @@ public class menucontroller : MonoBehaviour
 	// Use this for initialization
 	public void PlayGame()
     {
-        Application.LoadLevel ("GamePlay");	
+        Application.LoadLevel ("Intro");	
 	}
 }

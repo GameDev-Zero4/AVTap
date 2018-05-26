@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Effect.unity
     guid: 12d6e85b2fc2269448ff92e8000a671a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GamePlay.unity
     guid: ffe38e9a91f21a04197a698d7dd3289b
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: fce0696d76cbac644a1e9e53da77c2a3
+  - enabled: 1
+    path: Assets/Scenes/Play_Copy.unity
+    guid: 293a41acf7587d148bda3ba428ccef95
