@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 655740dca433f5d469e0b7bccda3a147
 timeCreated: 1527308980
 licenseType: Free
@@ -8,6 +9,13 @@ TextureImporter:
     21300002: player_1
     21300004: player_2
     21300006: player_3
+=======
+guid: 779a49f697d76314690a432d3b6e7931
+timeCreated: 1527313427
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName: {}
+>>>>>>> 6769b5eaa4babcc30b5b84d90dac8ebb2cc4e5a7
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -44,14 +52,23 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
   spriteMode: 2
+=======
+  spriteMode: 1
+>>>>>>> 6769b5eaa4babcc30b5b84d90dac8ebb2cc4e5a7
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
+=======
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+>>>>>>> 6769b5eaa4babcc30b5b84d90dac8ebb2cc4e5a7
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -71,6 +88,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
   - buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -140,6 +158,11 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+=======
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+>>>>>>> 6769b5eaa4babcc30b5b84d90dac8ebb2cc4e5a7
     outline: []
     physicsShape: []
   spritePackingTag: 

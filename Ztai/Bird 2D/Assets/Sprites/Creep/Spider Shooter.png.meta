@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: a586fcfae6a5ddc4980c9f4eec0d0c48
-timeCreated: 1527308981
+guid: 9a463e1aa9f7fb14094b7e12b040a532
+timeCreated: 1527313535
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: hammer_0
-    21300002: hammer_1
-=======
-guid: 24e896dfaae065140b922abe372d02df
-timeCreated: 1527313425
-licenseType: Free
-TextureImporter:
-  fileIDToRecycleName: {}
->>>>>>> 6769b5eaa4babcc30b5b84d90dac8ebb2cc4e5a7
+    21300000: Spider Shooter_0
+    21300002: Spider Shooter_1
+    21300004: Spider Shooter_2
+    21300006: Spider Shooter_3
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -50,23 +44,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
   spriteMode: 2
-=======
-  spriteMode: 1
->>>>>>> 6769b5eaa4babcc30b5b84d90dac8ebb2cc4e5a7
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-  spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
-=======
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
->>>>>>> 6769b5eaa4babcc30b5b84d90dac8ebb2cc4e5a7
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -86,8 +70,37 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-<<<<<<< HEAD
   - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -101,13 +114,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hammer_0
+      name: Spider Shooter_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 8
-        width: 118
-        height: 285
+        x: 4
+        y: 6
+        width: 241
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,24 +128,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: hammer_1
+      name: Spider Shooter_1
       rect:
         serializedVersion: 2
-        x: 228
-        y: 9
-        width: 118
-        height: 282
+        x: 272
+        y: 1
+        width: 242
+        height: 149
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
-=======
-  spriteSheet:
-    serializedVersion: 2
-    sprites: []
->>>>>>> 6769b5eaa4babcc30b5b84d90dac8ebb2cc4e5a7
+    - serializedVersion: 2
+      name: Spider Shooter_2
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1
+        width: 242
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spider Shooter_3
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 52
+        width: 41
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
