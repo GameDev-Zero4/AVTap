@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 public class Player : MonoBehaviour {
-
+	public static WhenTouch touch;
     public float bounceForce;
 	public GameObject bubble;
     private Rigidbody2D myBody;
@@ -15,7 +15,8 @@ public class Player : MonoBehaviour {
         
         myBody = GetComponent<Rigidbody2D>();
        
-      
+		touch = new WhenTouch ();
+
     }
 
     // Use this for initialization
@@ -34,18 +35,20 @@ public class Player : MonoBehaviour {
         {
 			bubble.SetActive (false);
             myBody.gravityScale = 3;
-			if (Input.GetKey(KeyCode.Space))
+			if (touch.getTouch())
             {
                 myBody.velocity = new Vector2(myBody.velocity.x, bounceForce);
-            }
+				touch.setTouch ();
+			}
         }
         else
         {
 			bubble.SetActive (true);
             myBody.gravityScale = -3;
-			if (Input.GetKey(KeyCode.Space))
+			if (touch.getTouch())
             {
                 myBody.velocity = new Vector2(myBody.velocity.x, -bounceForce);
+				touch.setTouch ();
             }
         }
     }
