@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
-using UnityEditor;
-using UnityEditorInternal;
-using System.Collections;
-using System.IO;
-using System.Text.RegularExpressions;
-using System;
+//using UnityEditor;
+//using UnityEditorInternal;
+//using System.Collections;
+//using System.IO;
+//using System.Text.RegularExpressions;
+//using System;
 
 namespace AppAdvisory.Angie
 {

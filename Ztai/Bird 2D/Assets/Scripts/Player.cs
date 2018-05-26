@@ -8,6 +8,8 @@ public class Player : MonoBehaviour {
     public float bounceForce;
 	public GameObject bubble;
     private Rigidbody2D myBody;
+
+    public static bool isStart = false;
     int score;
 
     [SerializeField]
@@ -34,8 +36,23 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-        Move();
+        
 	}
+    void Update()
+    {
+        if (!isStart)
+        {
+            Time.timeScale = 0;
+            if (touch.getTouch())
+            {
+                Time.timeScale = 1;
+                isStart = true;
+                Move();
+            }
+        }
+        else if (isStart)
+            Move();
+    }
 
     void Move()
     {
