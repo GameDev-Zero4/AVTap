@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class GamePlayController : MonoBehaviour {
-
+	public GameObject touch;
     public static GamePlayController instance;
     [SerializeField]
     private Text scoreText, endScoreText, bestScoreText;
@@ -34,8 +34,9 @@ public class GamePlayController : MonoBehaviour {
     public void PlayDied(int score)
     {
         Time.timeScale = 0;
+		touch.SetActive (false);
         overpanel.SetActive(true);
-        
+		overpanel.gameObject.GetComponent<MeshRenderer> ().sortingOrder=4;
          endScoreText.text = "" + score;
          if (score > bestscore)
         {
@@ -46,8 +47,10 @@ public class GamePlayController : MonoBehaviour {
     }
     public void RestartGameButton()
     {
+		touch.SetActive (true);
         Application.LoadLevel("Play_Copy");
         Time.timeScale = 1;
+		overpanel.gameObject.GetComponent<MeshRenderer> ().sortingOrder=2;
         //Application.LoadLevel (Application.loadedLevel);
     }
 }
