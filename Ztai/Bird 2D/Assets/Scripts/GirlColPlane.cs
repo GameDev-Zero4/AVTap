@@ -18,6 +18,7 @@ public class GirlColPlane : MonoBehaviour {
 	{
 		if (col.gameObject.tag == "Plane") {
 			col.gameObject.SetActive (false);
+			Destroy (col.gameObject);
 		}
 	}
 }

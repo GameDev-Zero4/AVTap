@@ -13,12 +13,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_NextId: 0
   m_Tracks:
-  - {fileID: 114561959492362172}
+  - {fileID: 114079699527351394}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
   m_DurationMode: 0
---- !u!74 &74459945810092932
+--- !u!74 &74063882186425236
 AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -37,19 +37,19 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: {x: 0, y: 0.021542996, z: 0}
+        value: {x: 0, y: -0.018457025, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       - serializedVersion: 2
-        time: 5.25
-        value: {x: 0.0197196, y: 0.021542996, z: 0}
-        inSlope: {x: 0.0139197195, y: 0, z: 0}
-        outSlope: {x: 0.0139197195, y: 0, z: 0}
+        time: 4.35
+        value: {x: 0.0197196, y: -0.018457025, z: 0}
+        inSlope: {x: 0.017593697, y: 0, z: 0}
+        outSlope: {x: 0.017593697, y: 0, z: 0}
         tangentMode: 0
       - serializedVersion: 2
-        time: 5.6666665
-        value: {x: 14.96972, y: 0.021542996, z: 0}
+        time: 4.483333
+        value: {x: 65.94972, y: -0.018457025, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -101,7 +101,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 5.6666665
+    m_StopTime: 4.483333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -127,14 +127,14 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 5.25
+        time: 4.35
         value: 0.0197196
-        inSlope: 0.0139197195
-        outSlope: 0.0139197195
+        inSlope: 0.017593697
+        outSlope: 0.017593697
         tangentMode: 136
       - serializedVersion: 2
-        time: 5.6666665
-        value: 14.96972
+        time: 4.483333
+        value: 65.94972
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -150,19 +150,19 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: 0.021542996
+        value: -0.018457025
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 5.25
-        value: 0.021542996
+        time: 4.35
+        value: -0.018457025
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 5.6666665
-        value: 0.021542996
+        time: 4.483333
+        value: -0.018457025
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -183,13 +183,13 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 5.25
+        time: 4.35
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 5.6666665
+        time: 4.483333
         value: 0
         inSlope: 0
         outSlope: 0
@@ -206,7 +206,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 1
   m_Events: []
---- !u!114 &114561959492362172
+--- !u!114 &114079699527351394
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Locked: 0
   m_Muted: 0
   m_CustomPlayableFullTypename: 
-  m_AnimClip: {fileID: 74459945810092932}
+  m_AnimClip: {fileID: 74063882186425236}
   m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips: []
