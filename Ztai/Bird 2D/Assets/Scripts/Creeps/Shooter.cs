@@ -23,7 +23,7 @@ public class Shooter : MonoBehaviour {
 
     IEnumerator Attack()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.2f);
 
         Instantiate(bullet, transform.position, Quaternion.identity);
         StartCoroutine(Attack());

@@ -21,7 +21,7 @@ public class Creep : MonoBehaviour {
         if (target.gameObject.tag == "Player")
         {
 			
-		    
+
 			deadEffect.SetActive (true);
         }
     }
