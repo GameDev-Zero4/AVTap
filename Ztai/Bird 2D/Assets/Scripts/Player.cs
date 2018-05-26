@@ -10,12 +10,20 @@ public class Player : MonoBehaviour {
     private Rigidbody2D myBody;
     int score;
 
+    [SerializeField]
+    private AudioSource audioSource;
+
+    [SerializeField]
+    private AudioClip flyClip, diedClip;
+
+
     void Awake()
     {
         
         myBody = GetComponent<Rigidbody2D>();
        
 		touch = new WhenTouch ();
+      
 
     }
 
@@ -37,6 +45,7 @@ public class Player : MonoBehaviour {
             myBody.gravityScale = 3;
 			if (touch.getTouch())
             {
+                audioSource.PlayOneShot(flyClip);
                 myBody.velocity = new Vector2(myBody.velocity.x, bounceForce);
 				touch.setTouch ();
 			}
@@ -47,6 +56,7 @@ public class Player : MonoBehaviour {
             myBody.gravityScale = -3;
 			if (touch.getTouch())
             {
+                audioSource.PlayOneShot(flyClip);
                 myBody.velocity = new Vector2(myBody.velocity.x, -bounceForce);
 				touch.setTouch ();
             }
@@ -65,9 +75,13 @@ public class Player : MonoBehaviour {
           
         }
       else {
+           
+            audioSource.PlayOneShot(diedClip);
+
             GamePlayController.instance.PlayDied(score);    
-            Destroy(gameObject);
+          //  Destroy(gameObject);
         }
+       
     }
     
 

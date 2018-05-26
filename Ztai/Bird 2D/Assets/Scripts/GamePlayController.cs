@@ -11,11 +11,11 @@ public class GamePlayController : MonoBehaviour {
     [SerializeField]
     private GameObject overpanel;
     [SerializeField]
-    private static int bestscore;   
-
+    private static int bestscore;
+    private AudioSource _nhac;
     void Awake()
     {
-        
+        _nhac = GetComponent<AudioSource>();
         _MakeInstance();
     }
 
@@ -33,6 +33,7 @@ public class GamePlayController : MonoBehaviour {
     }
     public void PlayDied(int score)
     {
+        _nhac.Stop();
         Time.timeScale = 0;
 		touch.SetActive (false);
         overpanel.SetActive(true);
