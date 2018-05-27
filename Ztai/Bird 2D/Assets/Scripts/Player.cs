@@ -8,6 +8,8 @@ public class Player : MonoBehaviour {
     public float bounceForce;
 	public GameObject bubble;
     private Rigidbody2D myBody;
+    public GameObject text;
+   
 
     public static bool isStart = false;
     int score;
@@ -25,32 +27,38 @@ public class Player : MonoBehaviour {
         myBody = GetComponent<Rigidbody2D>();
        
 		touch = new WhenTouch ();
-      
 
+        //GamePlayController.instance.setState();
     }
 
     // Use this for initialization
     void Start () {
 		
 	}
-	
-	// Update is called once per frame
-	void FixedUpdate () {
-        
-	}
+
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+        if (isStart)
+        {
+            text.SetActive(false);
+        }
+    }
     void Update()
     {
-        if (!isStart)
-        {
-            Time.timeScale = 0;
-            if (touch.getTouch())
+       if (!isStart)
+       {
+          Time.timeScale = 0;
+           if (touch.getTouch())
             {
-                Time.timeScale = 1;
-                isStart = true;
-                Move();
-            }
-        }
-        else if (isStart)
+               Time.timeScale = 1;
+              isStart = true;
+                text.SetActive(false);
+               Move();
+                
+           }
+       }
+       else if (isStart)
             Move();
     }
 
@@ -59,6 +67,7 @@ public class Player : MonoBehaviour {
         if (transform.position.y > 0)
         {
 			bubble.SetActive (false);
+
             myBody.gravityScale = 3;
 			if (touch.getTouch())
             {
@@ -70,6 +79,7 @@ public class Player : MonoBehaviour {
         else
         {
 			bubble.SetActive (true);
+
             myBody.gravityScale = -3;
 			if (touch.getTouch())
             {

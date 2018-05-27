@@ -17,8 +17,12 @@ public class GamePlayController : MonoBehaviour {
     {
         _nhac = GetComponent<AudioSource>();
         _MakeInstance();
-    }
 
+    }
+   public void setState()
+    {
+        overpanel.SetActive(false);
+    }
     void _MakeInstance()
     {
         if (instance == null)
@@ -35,9 +39,11 @@ public class GamePlayController : MonoBehaviour {
     {
         _nhac.Stop();
         Time.timeScale = 0;
+
 		touch.SetActive (false);
         overpanel.SetActive(true);
-		overpanel.gameObject.GetComponent<MeshRenderer> ().sortingOrder=4;
+
+		//overpanel.gameObject.GetComponent<MeshRenderer> ().sortingOrder=4;
          endScoreText.text = "" + score;
          if (score > bestscore)
         {
@@ -51,7 +57,7 @@ public class GamePlayController : MonoBehaviour {
 		touch.SetActive (true);
         Application.LoadLevel("Play_Copy");
         Time.timeScale = 1;
-		overpanel.gameObject.GetComponent<MeshRenderer> ().sortingOrder=2;
+		//overpanel.gameObject.GetComponent<MeshRenderer> ().sortingOrder=2;
         //Application.LoadLevel (Application.loadedLevel);
     }
 }
